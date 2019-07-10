@@ -1,11 +1,23 @@
 package company.lab5.AnimalRescue;
 
 public class AnimalAdopter {
-    float money = 150;
-    String name = "MrSmith";
+    private String name;
+    private int dollarsAvailable;
 
-    public void money() {
+    public String getName() {
+        return name;
+    }
 
-        System.out.println("He is having 150 euro available for the cat.");
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getDollarsAvailable() {
+        return dollarsAvailable;
+    }
+
+    public void setDollarsAvailable(int dollarsAvailable) {
+        this.dollarsAvailable = dollarsAvailable;
     }
 }
+

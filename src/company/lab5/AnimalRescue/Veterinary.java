@@ -1,13 +1,24 @@
 package company.lab5.AnimalRescue;
 
 public class Veterinary {
-    String name = "DoctorPush";
-    String specialization = "veterinary";
-    public void name () {
-        System.out.println("His name is DoctorPush.");
+
+
+    private String Name;
+    private String Specialization;
+
+    public String getName() {
+        return Name;
     }
 
-    public void specialization () {
-        System.out.println("His specialization are cats.");
+    public void setName(String name) {
+        Name = name;
+    }
+
+    public String getSpecialization() {
+        return Specialization;
+    }
+
+    public void setSpecialization(String specialization) {
+        Specialization = specialization;
     }
 }

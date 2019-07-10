@@ -1,26 +1,41 @@
 package company.lab5.AnimalRescue;
 
 public class AnimalFood {
-    String name = "RoyalCanin";
-    int price = 5;
-    byte quantity = 20;
-    String disponibility = "in stock";
+    private String name;
+    private int priceDollar;
+    private int quantityKg;
+    private String stock;
 
-    public void name() {
-        System.out.println("The name of the food is RoyalCanin");
+    public String getName() {
+        return name;
     }
 
-    public void price() {
-        System.out.println("The price of the food is 5 euro");
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public void quantity() {
-        System.out.println("Available quantity is 20");
+    public int getPriceDollar() {
+        return priceDollar;
     }
 
-    public void disponibility() {
-        System.out.println("The product is in stock");
+    public void setPriceDollar(int PriceDollar) {
+        this.priceDollar = PriceDollar;
     }
 
+    public int getQuantityKg() {
+        return quantityKg;
+    }
+
+    public void setQuantityKg(int QuantityKg) {
+        this.quantityKg = QuantityKg;
+    }
+
+    public String getStock() {
+        return stock;
+    }
+
+    public void setStock(String Stock) {
+        this.stock = Stock;
+    }
 }
 
