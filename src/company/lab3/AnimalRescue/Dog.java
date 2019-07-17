@@ -1,6 +1,6 @@
-package company.lab5.AnimalRescue;
+package company.lab3.AnimalRescue;
 
-public class Animal {
+public class Dog {
 
     private String name;
     private int age;
@@ -9,8 +9,7 @@ public class Animal {
     private float health;
 
 
-
-    public void setName(String name){
+    public void setName(String name) {
         this.name = name;
     }
 
@@ -24,6 +23,14 @@ public class Animal {
 
     public int getAge() {
         return age;
+    }
+
+    public void setHeightM(float heightM) {
+        this.heightM = heightM;
+    }
+
+    public float getHeightM() {
+        return heightM;
     }
 
     public void setWeight(float weight) {
@@ -41,13 +48,4 @@ public class Animal {
     public float getHealth() {
         return health;
     }
-
-    public void setHeightM(float heightM) {
-        this.heightM = heightM;
-    }
-
-    public float getHeightM() {
-        return heightM;
-    }
-
 }

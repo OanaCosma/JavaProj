@@ -1,14 +1,14 @@
-package company.lab6.AnimalRescue;
+package company.lab4.AnimalRescue;
 
 import company.lab3.AnimalRescue.Activity;
 import company.lab3.AnimalRescue.AnimalAdopter;
 import company.lab3.AnimalRescue.AnimalFood;
 import company.lab3.AnimalRescue.Dog;
-import company.lab4.AnimalRescue.Cat;
-import company.lab4.AnimalRescue.Veterinary;
 
 public class AppMain {
+
     public static void main(String[] args) {
+
 
         company.lab3.AnimalRescue.Dog Sky = new Dog();
         Sky.setName("Sky");
@@ -23,7 +23,7 @@ public class AppMain {
         System.out.println(Sky.getWeight());
 
 
-        company.lab4.AnimalRescue.Cat Missy = new Cat();
+        Cat Missy = new Cat();
         Missy.setName("Missy");
         System.out.println(Missy.getName());
         Missy.setAge(3);
@@ -61,10 +61,14 @@ public class AppMain {
 
 
 
-        company.lab4.AnimalRescue.Veterinary DoctorPush = new Veterinary();
+        Veterinary DoctorPush = new Veterinary();
         DoctorPush.setName("DoctorPush");
         System.out.println(DoctorPush.getName());
         DoctorPush.setSpecialization("internal medicine");
         System.out.println(DoctorPush.getSpecialization());
     }
 }
+
+
+
+

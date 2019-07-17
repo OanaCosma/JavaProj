@@ -1,4 +1,4 @@
-package company.lab6.AnimalRescue;
+package company.lab7.AnimalRescue;
 
 import company.lab3.AnimalRescue.Activity;
 import company.lab3.AnimalRescue.AnimalAdopter;

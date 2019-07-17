@@ -1,8 +1,8 @@
-package company.lab6.AnimalRescue;
+package company.lab4.AnimalRescue;
 
-
-abstract class Cat extends Animal {
+public class Cat extends Animal {
     private String claws;
+
     public String getClaws() {
         return claws;
     }
@@ -11,9 +11,7 @@ abstract class Cat extends Animal {
         this.claws = claws;
     }
 
-    public void speak() {
+    public void meow(){
         System.out.println("Meow!");
     }
-
-
 }

@@ -114,31 +114,6 @@ public class LogicalOp {
         }
 
 
-        public int checkIfNumberInArrayIndex (int[] myArray, int x){
-            int a = -1;
-            for (int i = 0; i < myArray.length; i++)
-                if (x == myArray[i]) {
-                    a = i;
-                    break;
-
-                }
-
-            return a;
-        }
-
-
-        public void showCharactersArray() {
-            char[] myArray = {'-', '-', '-', '-', '-', '-', '-'};
-            for (int i = 0; i < 6; i++) {
-                System.out.println();
-
-                for (int j = 0; j < myArray.length; j++) {
-                    System.out.print(myArray[j] + " ");
-                }
-            }
-        }
-
-
     }
 }
 

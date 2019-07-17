@@ -1,7 +1,6 @@
-package company.lab6.AnimalRescue;
+package company.lab7.AnimalRescue;
 
 import company.lab5.AnimalRescue.Animal;
-
 public  class Dog extends Animal {
 
 
@@ -23,8 +22,6 @@ public  class Dog extends Animal {
     public void speak(){
         System.out.println("Whof!");
     }
-
-
 
 
 }

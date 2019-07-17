@@ -1,4 +1,4 @@
-package company.lab5.AnimalRescue;
+package company.lab3.AnimalRescue;
 
 public class Activity {
     private String activityName;

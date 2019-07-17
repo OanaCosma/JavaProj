@@ -1,4 +1,4 @@
-package company.lab6.AnimalRescue;
+package company.lab7.AnimalRescue;
 
 public abstract class Animal {
     private String breed;
@@ -51,6 +51,8 @@ public abstract class Animal {
         System.out.println("He's eating Pedigree");
     }
 
+
+    public abstract String play();
 
     public abstract void sleep();
 

@@ -24,18 +24,18 @@ public class Main {
         myList.add(1.6);
         op.addToList(myList,9.5);
 
-        List<Integer>myList=new ArrayList<>();
-        myList.add(10);
-        myList.add(12);
-        myList.add(14);
-        myList.add(16);
-        myList.add(18);
-        myList.add(20);
-        op.printList(myList,20);
+        List<Integer>myList2=new ArrayList<>();
+        myList2.add(10);
+        myList2.add(12);
+        myList2.add(14);
+        myList2.add(16);
+        myList2.add(18);
+        myList2.add(20);
+        op.printList(myList2,20);
 
-        op.printBackwards(myList);
+        op.printBackwards(myList2);
 
-        op.printList(myList);
+        op.printList(myList2);
 
         List<Integer> myListB=new ArrayList<>();
         myListB.add(47);
